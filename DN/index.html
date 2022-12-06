@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="page">
+      <div class="logo">
+        <ion-icon name="logo-react"> </ion-icon>
+      </div>
+
+      <div class="left">
+        <div class="title">
+          <h1></h1>
+        </div>
+        <p class="intro">
+          Chào mừng các bạn đến với Food Store. <br />
+          Chúc bạn có một bữa ăn ngon nhé !!!
+        </p>
+        <a href="../DK/index.html"> <button class="btnREGISTER">REGISTER</button></a>
+      </div>
+
+      <div class="right">
+        <form action="">
+          <h1>LOGIN</h1>
+          <input type="text" placeholder="Enter your name" id="username" />
+          <input type="email" placeholder="Enter your mail" id="email" />
+          <input type="password" placeholder="Enter password" name="Password" id="password" />
+
+          <!-- rêmmber -->
+          <div class="action">
+            <div class="remember-me">
+              <input type="checkbox" id="checkbox" />
+              <label for="remember-me">Remember Me</label>
+            </div>
+
+            <div class="signBtn btn-login">
+              <button class="btn">LOGIN</button>
+            </div>
+
+            <div class="register-request">
+              <p>Do you have an account? <a href="#">REGISTER</a></p>
+            </div>
+
+            <div class="sighInMethods">
+              <div class="signIn_facebook">
+                <img src="/DN/img/facebook.png" alt="" />
+                <a href="https://vi-vn.facebook.com/">
+                  <p>Facebook</p>
+                </a>
+              </div>
+
+              <div class="signIn_google">
+                <img src="./img/search.png" alt="" />
+                <a href="https://accounts.google.com">
+                  <p>Google</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
